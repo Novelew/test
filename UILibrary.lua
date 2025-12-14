@@ -8,10 +8,7 @@ local UserInputService = game:GetService("UserInputService")
 local Players = game:GetService("Players")
 local TextService = game:GetService("TextService")
 
-local LocalPlayer = Players.LocalPlayer
-local Mouse = LocalPlayer:GetMouse()
 
--- Types
 type Theme = {
     Main: Color3,
     Secondary: Color3,
